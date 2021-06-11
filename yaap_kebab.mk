@@ -27,9 +27,6 @@ $(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 # Bootanimation
 scr_resolution := 1080
 
-# Gapps Config
-TARGET_BUILD_GAPPS := true
-
 PRODUCT_NAME := yaap_kebab
 PRODUCT_DEVICE := kebab
 PRODUCT_MANUFACTURER := OnePlus
